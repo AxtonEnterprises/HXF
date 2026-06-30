@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #111827;
+  color: #f9fafb;
+  font-family: system-ui, sans-serif;
+}
+
+.app {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.hero {
+  padding: 32px;
+  border: 1px solid #374151;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #1f2937, #111827);
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  color: #d1d5db;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+button {
+  border: 0;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: #38bdf8;
+  color: #082f49;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+.status {
+  min-height: 24px;
+  color: #facc15;
+}
+
+.panel {
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid #374151;
+  border-radius: 16px;
+  background: #1f2937;
+}
+
+textarea {
+  width: 100%;
+  min-height: 480px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #4b5563;
+  background: #030712;
+  color: #e5e7eb;
+  font-family: monospace;
+  font-size: 14px;
+  resize: vertical;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 12px;
+  background: #030712;
+  color: #d1d5db;
+}
